@@ -24,7 +24,7 @@ public class CardDeliveryTest {
         $("[data-test-id = 'date'] input").doubleClick().sendKeys(Keys.DELETE);
         $("[data-test-id='date'] input").setValue(planningDate);
         $("[data-test-id = 'name'] input").setValue("Зеленский Александр");
-        $("[data-test-id = 'phone'] input").setValue("+7904099405056");
+        $("[data-test-id = 'phone'] input").setValue("+79040994050");
         $("[data-test-id = 'agreement']").click();
         $("button.button").click();
         $("[data-test-id='notification']")
